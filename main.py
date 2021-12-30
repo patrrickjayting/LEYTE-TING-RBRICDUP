@@ -28,7 +28,7 @@ def empty(x):
     pass
 
 
-# initializing haar cascade and video source
+# initializing hear cascade and video sources
 def init(DEBUG):
     if (DEBUG):
         cv2.namedWindow("frame")
@@ -165,3 +165,5 @@ while (not (cv2.waitKey(1) == ord('q'))):
     cv2.imshow("Frame", cliveimg)
 cap.release()
 cv2.destroyAllWindows()
+
+$SSSSSHh SPSTRKED JAYNESS
