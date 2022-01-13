@@ -1,7 +1,5 @@
 # import packages
 import sys
-from typing import List
-
 sys.path.append('C:\Python36\Lib\site-packages\cv2')
 import numpy as np
 import cv2
@@ -56,7 +54,7 @@ for x in range(0,columns):
     # and set value in avgy at index equal to column number, as (value already there divided by num)
     if num > 2:
         numbers_of_dark_pixels_in_each_column[x] = num
-        average_of_row_numbers_having_dark_pixels_in_each_column[x] = (addition_of_row_numbers_having_dark_pixels_in_each_column[x]) / num)
+        average_of_row_numbers_having_dark_pixels_in_each_column[x]=((addition_of_row_numbers_having_dark_pixels_in_each_column[x]) / num)
 
 
 average_dark_pixels = 0
