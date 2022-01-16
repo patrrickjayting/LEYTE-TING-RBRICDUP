@@ -7,7 +7,7 @@ import cv2
 import math
 
 # load the image
-first_read_image = cv2.imread("resistorfourband.png")
+first_read_image = cv2.imread("place1.jpg")
 
 # convert image from BGR to RGB
 image = cv2.cvtColor(first_read_image, cv2.COLOR_BGR2RGB)
@@ -188,7 +188,7 @@ if x_min >= 0:  # if minx is greater than or equal to 0 (ie. respective index of
             else:
                 coldet[x] = -1
 
-        print("coldet", coldet)
+
 
         numconti = 0
         numcodes = 0
