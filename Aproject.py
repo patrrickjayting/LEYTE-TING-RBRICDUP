@@ -7,7 +7,7 @@ import cv2
 import math
 
 # load the image
-first_read_image = cv2.imread("place1.jpg")
+first_read_image = cv2.imread("resistorfourband.png")
 
 # convert image from BGR to RGB
 image = cv2.cvtColor(first_read_image, cv2.COLOR_BGR2RGB)
