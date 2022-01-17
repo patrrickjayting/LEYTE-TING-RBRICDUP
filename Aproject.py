@@ -210,7 +210,7 @@ if x_min >= 0:  # if minx is greater than or equal to 0 (ie. respective index of
                         maxnum = sumc[i]
                         code = i
 
-                if code is not -1:
+                if code != -1:
                     # display colours and colour names
                     cv2.rectangle(image, ((int)(numcodes * columns / 4), rows - 40),
                                   ((int)((numcodes + 1) * columns / 4), rows), bright_codes[code], -1)  # Original
